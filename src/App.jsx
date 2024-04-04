@@ -48,8 +48,8 @@ return(
 <About />
 <Services />
 <Footer  />
-<Register />
-<Login/>
+{/* <Register />
+<Login/> */}
     </div>
 );
 };
