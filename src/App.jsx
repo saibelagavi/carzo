@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Footer from "./Footer/Footer";
+import Register from "./components/Register/Register";
+import Login from './components/Login/Login';
 const App = ()=>
 
 //for dark mode
@@ -46,6 +48,8 @@ return(
 <About />
 <Services />
 <Footer  />
+<Register />
+<Login/>
     </div>
 );
 };
